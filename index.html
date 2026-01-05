@@ -27,7 +27,7 @@
             border-bottom: 1px solid rgba(0,0,0,0.05);
         }
 
-        .section-padding { padding: 120px 0; }
+        .section-padding { padding: 100px 0; }
         
         .profile-frame {
             border: 1px solid var(--gold);
@@ -70,21 +70,21 @@
     <!-- Navigation (The Gatekeeper) -->
     <nav class="fixed top-0 w-full z-50 nav-glass">
         <div class="max-w-7xl mx-auto px-8 h-24 flex items-center justify-between">
-            <div class="serif font-bold text-2xl tracking-tighter">S.E.A.</div>
+            <a href="#home" class="serif font-bold text-2xl tracking-tighter">S.E.A.</a>
             <div class="hidden lg:flex gap-12 text-[10px] font-bold uppercase tracking-[0.3em] text-stone-400">
                 <a href="#home" class="hover:text-amber-600 transition-colors">Front Gate</a>
                 <a href="#about" class="hover:text-amber-600 transition-colors">The Architect</a>
                 <a href="#vault" class="hover:text-amber-600 transition-colors">The Vault</a>
                 <a href="#initiatives" class="hover:text-amber-600 transition-colors">Institutions</a>
-                <a href="#contact" class="hover:text-amber-600 transition-colors">Advisory</a>
+                <a href="#advisory" class="hover:text-amber-600 transition-colors">Advisory</a>
             </div>
-            <a href="#contact" class="hidden md:block border border-stone-200 px-6 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-stone-50 transition-all">
+            <a href="#advisory" class="hidden md:block border border-stone-200 px-6 py-2 rounded-full text-[10px] font-bold uppercase tracking-widest hover:bg-stone-50 transition-all">
                 Request Access
             </a>
         </div>
     </nav>
 
-    <!-- 1. The Front Gate (Positioning & Authority) -->
+    <!-- 1. The Front Gate -->
     <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20 fade-in">
         <div class="mb-12 relative">
             <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" 
@@ -97,7 +97,6 @@
             Consolidating legal intelligence. Building systems for the next generation of high-authority leadership.
         </p>
         
-        <!-- Authority Metrics -->
         <div class="flex gap-8 mb-16">
             <div class="text-center">
                 <p class="text-3xl serif font-bold">168k+</p>
@@ -110,65 +109,58 @@
             </div>
         </div>
 
-        <a href="#initiatives" class="btn-gold px-14 py-5 rounded-full font-bold uppercase text-[11px] tracking-[0.2em]">Enter The Hub</a>
+        <a href="#about" class="btn-gold px-14 py-5 rounded-full font-bold uppercase text-[11px] tracking-[0.2em]">Enter The Hub</a>
     </section>
 
-    <!-- 2. ABOUT ME PAGE (The Architect - Comprehensive) -->
-        <section id="about-page" class="page-content">
-            <div class="max-w-5xl mx-auto px-8 py-16">
-                <div class="grid lg:grid-cols-5 gap-16 items-start">
-                    <div class="lg:col-span-2 sticky top-32">
-                        <div class="rounded-2xl overflow-hidden shadow-2xl border border-stone-100">
-                            <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" class="w-full grayscale">
-                        </div>
-                        <div class="mt-8 space-y-4">
-                            <div class="p-6 bg-white border border-stone-100 rounded-xl">
-                                <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mb-1">Current Focus</p>
-                                <p class="serif italic text-lg">System Design & Strategic Lawyering</p>
-                            </div>
-                        </div>
+    <!-- 2. Detailed About Me Section -->
+    <section id="about" class="section-padding bg-white border-y border-stone-100">
+        <div class="max-w-5xl mx-auto px-8">
+            <div class="grid lg:grid-cols-5 gap-16 items-start">
+                <div class="lg:col-span-2">
+                    <div class="rounded-2xl overflow-hidden shadow-2xl border border-stone-100">
+                        <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" class="w-full grayscale">
                     </div>
+                    <div class="mt-8 p-6 bg-stone-50 border border-stone-100 rounded-xl">
+                        <p class="text-[9px] font-bold text-stone-400 uppercase tracking-widest mb-1">Current Focus</p>
+                        <p class="serif italic text-lg">System Design & Strategic Lawyering</p>
+                    </div>
+                </div>
+                
+                <div class="lg:col-span-3">
+                    <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Identity & Intent</p>
+                    <h2 class="serif text-5xl font-bold mb-10 italic">The Architect's Story.</h2>
                     
-                    <div class="lg:col-span-3">
-                        <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Identity & Intent</p>
-                        <h2 class="serif text-6xl font-bold mb-10 italic">The Architect's Story.</h2>
+                    <div class="space-y-6 text-slate-600 text-lg leading-relaxed font-light">
+                        <p>I am <strong>Similoluwa Esther Ajayi</strong>, but within the landscape of the legal industry, I operate as <strong>The Legal Architect</strong>. I do not merely view law as a collection of statutes, but as a complex infrastructure that requires precise design.</p>
                         
-                        <div class="space-y-8 text-slate-600 text-lg leading-relaxed font-light">
-                            <p>I am <strong>Similoluwa Esther Ajayi</strong>, but within the landscape of the legal industry, I operate as <strong>The Legal Architect</strong>. I do not merely view law as a collection of statutes, but as a complex infrastructure that requires precise design and strategic maintenance.</p>
-                            
-                            <p>My work is centered on the belief that authority in the legal space is not inherited—it is architected. I specialize in bridging the gap between abstract legal theory and high-performance execution, creating systems that allow professionals to navigate complexity with absolute clarity.</p>
+                        <p>My work is centered on the belief that authority in the legal space is not inherited—it is architected. I specialize in bridging the gap between abstract legal theory and high-performance execution.</p>
 
-                            <div class="py-10 border-y border-stone-100 my-12">
-                                <h3 class="serif text-3xl font-bold mb-6 italic text-slate-900">My Mission & Audience</h3>
-                                <p class="mb-6">I build for the <strong>Next Generation of Legal Minds</strong>. My audience consists of high-achieving law students, early-career professionals, and strategic thinkers who are tired of the traditional, chaotic approach to legal excellence.</p>
-                                <ul class="space-y-4">
-                                    <li class="flex items-start gap-4">
-                                        <span class="text-amber-600 font-bold">01.</span>
-                                        <span><strong>Precision:</strong> Moving from "studying hard" to "architecting knowledge."</span>
-                                    </li>
-                                    <li class="flex items-start gap-4">
-                                        <span class="text-amber-600 font-bold">02.</span>
-                                        <span><strong>Authority:</strong> Establishing a digital and professional presence that commands respect.</span>
-                                    </li>
-                                    <li class="flex items-start gap-4">
-                                        <span class="text-amber-600 font-bold">03.</span>
-                                        <span><strong>Sustainability:</strong> Building systems that prevent burnout while maintaining elite performance.</span>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <h3 class="serif text-3xl font-bold mb-4 italic text-slate-900">What You Benefit</h3>
-                            <p>By engaging with my work, you gain access to <strong>Frameworks, not just Information</strong>. Whether it is through my Knowledge Vault assets or private cohort experiences, you are learning how to build a legal career that is both structurally sound and strategically dominant.</p>
-                            
-                            <p>Welcome to the estate. Let's begin the build.</p>
+                        <div class="py-8 border-y border-stone-100 my-10">
+                            <h3 class="serif text-2xl font-bold mb-6 italic text-slate-900">Mission & Audience</h3>
+                            <p class="mb-6 text-base italic">I build for the Next Generation of Legal Minds.</p>
+                            <ul class="space-y-4 text-base">
+                                <li class="flex items-start gap-4">
+                                    <span class="text-amber-600 font-bold">01. Precision:</span>
+                                    <span>Moving from "studying hard" to architecting knowledge.</span>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <span class="text-amber-600 font-bold">02. Authority:</span>
+                                    <span>Establishing a professional presence that commands respect.</span>
+                                </li>
+                                <li class="flex items-start gap-4">
+                                    <span class="text-amber-600 font-bold">03. Sustainability:</span>
+                                    <span>Systems that prevent burnout while maintaining elite performance.</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    <!-- 3. The Architect (Strategic About) -->
-    <section id="about" class="section-padding bg-white border-y border-stone-100">
+    <!-- 3. The Philosophy -->
+    <section class="section-padding bg-stone-50/50">
         <div class="max-w-5xl mx-auto px-8">
             <div class="grid lg:grid-cols-2 gap-20 items-center">
                 <div class="relative">
@@ -185,23 +177,22 @@
                         <p class="serif italic text-xl mt-2">Abuja, Nigeria • Global Digital HQ</p>
                     </div>
                 </div>
-                <div class="rounded-2xl overflow-hidden shadow-2xl">
+                <div class="rounded-2xl overflow-hidden shadow-xl border-8 border-white">
                     <img src="https://lh3.googleusercontent.com/d/1PFEa0Dnf7VmDada-SI-hPrkvOK3JQQ6u" class="w-full grayscale hover:grayscale-0 transition-all duration-700">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 4. The Knowledge Vault (Value Assets) -->
-    <section id="vault" class="section-padding bg-stone-50">
+    <!-- 4. The Knowledge Vault -->
+    <section id="vault" class="section-padding bg-white">
         <div class="max-w-6xl mx-auto px-8">
-            <div class="mb-20">
+            <div class="mb-20 text-center">
                 <p class="text-stone-400 text-[10px] uppercase tracking-[0.5em] font-bold mb-4">Wing III</p>
                 <h2 class="serif text-5xl font-bold italic">The Knowledge Vault</h2>
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Asset 1 -->
                 <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
                     <div>
                         <span class="text-2xl">📐</span>
@@ -210,16 +201,14 @@
                     </div>
                     <a href="#" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Acquire Asset →</a>
                 </div>
-                <!-- Asset 2 -->
                 <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
                     <div>
-                        <span class="text-2xl">🏛</span>
+                        <span class="text-2xl">🏛️</span>
                         <h3 class="serif text-xl font-bold mt-6">The 2026 Vault</h3>
                         <p class="text-stone-500 text-sm mt-4">High-authority templates and curated legal resources.</p>
                     </div>
                     <a href="#" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Explore Archives →</a>
                 </div>
-                <!-- Asset 3 -->
                 <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm">
                     <div>
                         <span class="text-2xl">📊</span>
@@ -228,7 +217,6 @@
                     </div>
                     <a href="#" class="text-[10px] uppercase font-bold tracking-widest text-amber-700">Get Workspace →</a>
                 </div>
-                <!-- Asset 4 -->
                 <div class="wing-card p-8 rounded-2xl flex flex-col justify-between h-80 shadow-sm bg-stone-900 text-white border-none">
                     <div>
                         <span class="text-2xl">🔒</span>
@@ -241,7 +229,7 @@
         </div>
     </section>
 
-    <!-- 5. Institutions Wing (Builder Energy) -->
+    <!-- 5. Institutions Wing -->
     <section id="initiatives" class="section-padding bg-stone-950 text-white">
         <div class="max-w-5xl mx-auto px-8 text-center">
             <h2 class="serif text-5xl font-bold mb-6 italic">Institutions outlive posts.</h2>
@@ -256,116 +244,89 @@
                 <p class="text-stone-400 max-w-xl mx-auto leading-relaxed mb-10">
                     A private, high-authority environment for legal minds to master strategy, systems, and peak performance. Limited seats, infinite leverage.
                 </p>
-                <a href="PASTE_APPLICATION_LINK_HERE" class="inline-block bg-white text-black px-12 py-5 rounded-full font-bold uppercase text-[11px] tracking-widest hover:bg-amber-600 hover:text-white transition-all">
+                <a href="#" class="inline-block bg-white text-black px-12 py-5 rounded-full font-bold uppercase text-[11px] tracking-widest hover:bg-amber-600 hover:text-white transition-all shadow-lg">
                     Apply for the Waitlist
                 </a>
             </div>
         </div>
     </section>
 
-     <!-- 6. ADVISORY ROOM (Separate Contact Page) -->
-        <section id="advisory-page" class="page-content">
-            <div class="max-w-6xl mx-auto px-8 py-16">
-                <div class="grid lg:grid-cols-2 gap-24 items-start">
-                    <div>
-                        <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Selective Access</p>
-                        <h2 class="serif text-7xl font-bold mb-10 italic text-slate-900">The Advisory Room.</h2>
-                        <p class="text-slate-500 text-xl leading-relaxed mb-12 font-light">
-                            Access is intentional. Whether you require a strategic audit of your systems or wish to collaborate on a high-level project, the conversation starts here.
-                        </p>
-                        <div class="space-y-10">
+    <!-- 6. Advisory Room -->
+    <section id="advisory" class="section-padding bg-white">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="grid lg:grid-cols-2 gap-24 items-start">
+                <div>
+                    <p class="text-amber-600 text-[10px] font-bold uppercase tracking-[0.4em] mb-4">Selective Access</p>
+                    <h2 class="serif text-6xl font-bold mb-10 italic text-slate-900">The Advisory Room.</h2>
+                    <p class="text-slate-500 text-xl leading-relaxed mb-12 font-light">
+                        Access is intentional. Whether you require a strategic audit of your systems or wish to collaborate on a high-level project, the conversation starts here.
+                    </p>
+                    <div class="space-y-10">
+                        <div>
+                            <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Direct Correspondence</p>
+                            <a href="mailto:simiajayi08@gmail.com" class="text-2xl serif italic hover:text-amber-600 transition-colors border-b border-stone-100 pb-2">simiajayi08@gmail.com</a>
+                        </div>
+                        <div class="flex gap-16">
                             <div>
-                                <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Direct Correspondence</p>
-                                <a href="mailto:simiajayi08@gmail.com" class="text-2xl serif italic hover:text-amber-600 transition-colors border-b border-stone-100 pb-2">simiajayi08@gmail.com</a>
+                                <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Network</p>
+                                <a href="https://linkedin.com/in/similoluwa-ajayi-323aa8329" class="text-sm font-medium hover:text-amber-600 transition-colors">LinkedIn</a>
                             </div>
-                            <div class="flex gap-16">
-                                <div>
-                                    <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Network</p>
-                                    <a href="https://linkedin.com/in/similoluwa-ajayi-323aa8329" class="text-sm font-medium hover:text-amber-600 transition-colors">LinkedIn</a>
-                                </div>
-                                <div>
-                                    <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Archives</p>
-                                    <a href="https://pin.it/6UWiejVX5" class="text-sm font-medium hover:text-amber-600 transition-colors">Pinterest</a>
-                                </div>
+                            <div>
+                                <p class="text-[10px] font-bold text-stone-400 uppercase tracking-widest mb-3">Archives</p>
+                                <a href="https://pin.it/6UWiejVX5" class="text-sm font-medium hover:text-amber-600 transition-colors">Pinterest</a>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="bg-white p-12 rounded-[32px] border border-stone-100 shadow-xl">
-                        <form class="space-y-6">
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="space-y-2">
-                                    <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Full Name</label>
-                                    <input type="text" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
-                                </div>
-                                <div class="space-y-2">
-                                    <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Email</label>
-                                    <input type="email" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
-                                </div>
+                </div>
+                
+                <div class="bg-white p-12 rounded-[32px] border border-stone-100 shadow-xl">
+                    <form class="space-y-6" onsubmit="event.preventDefault();">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="space-y-2">
+                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Full Name</label>
+                                <input type="text" placeholder="Your Name" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
                             </div>
                             <div class="space-y-2">
-                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Subject</label>
-                                <select class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm text-stone-500">
-                                    <option>Inquiry: The Initiative</option>
-                                    <option>Inquiry: Advisory / Consultancy</option>
-                                    <option>Inquiry: Speaking / Panels</option>
-                                    <option>Other</option>
-                                </select>
+                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Email</label>
+                                <input type="email" placeholder="email@address.com" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm">
                             </div>
-                            <div class="space-y-2">
-                                <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Message</label>
-                                <textarea rows="5" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm"></textarea>
-                            </div>
-                            <button type="submit" class="w-full btn-gold py-5 rounded-xl font-bold uppercase text-[10px] tracking-widest shadow-lg">Submit Request</button>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Subject</label>
+                            <select class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm text-stone-500">
+                                <option>Inquiry: The Initiative</option>
+                                <option>Inquiry: Advisory / Consultancy</option>
+                                <option>Inquiry: Speaking / Panels</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[9px] uppercase font-bold tracking-widest text-stone-400 ml-2">Message</label>
+                            <textarea rows="4" placeholder="How can we architect the future?" class="w-full p-4 bg-stone-50 border border-stone-100 rounded-xl focus:outline-none focus:border-amber-600 transition-all text-sm"></textarea>
+                        </div>
+                        <button type="submit" class="w-full btn-gold py-5 rounded-xl font-bold uppercase text-[10px] tracking-widest shadow-lg">Submit Request</button>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-    </main>
     <!-- Footer -->
     <footer class="py-24 border-t border-stone-100 bg-white text-center">
         <div class="max-w-7xl mx-auto px-8">
             <p class="serif italic text-3xl mb-4">Similoluwa Esther Ajayi</p>
             <p class="text-stone-400 text-[10px] uppercase tracking-[0.6em] mb-16 font-bold">The Legal Architect • Est. 2026</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-[9px] uppercase tracking-widest text-stone-300 font-bold mb-16">
+                <p>Identity: Architected</p>
+                <p>Proof: Visible</p>
+                <p>Access: Intentional</p>
+                <p>Value: Mapped</p>
+            </div>
+            
             <p class="text-[9px] text-stone-300 uppercase tracking-[0.3em]">© 2026 Architecture in Motion • All Rights Reserved</p>
         </div>
     </footer>
 
-    <script>
-        // NAVIGATION LOGIC
-        function navigateTo(pageId) {
-            // Hide all pages
-            const pages = document.querySelectorAll('.page-content');
-            pages.forEach(p => p.classList.remove('active'));
-
-            // Show target page
-            const target = document.getElementById(pageId + '-page');
-            if (target) {
-                target.classList.add('active');
-                window.scrollTo(0, 0);
-            }
-
-            // Update Nav Highlighting
-            const links = document.querySelectorAll('.nav-link');
-            links.forEach(l => l.classList.remove('active-nav'));
-            
-            // Handle hash without jumps
-            history.pushState(null, null, '#' + pageId);
-        }
-
-        // Initialize on load
-        window.addEventListener('load', () => {
-            const hash = window.location.hash.replace('#', '') || 'home';
-            navigateTo(hash);
-        });
-
-        // Handle browser back button
-        window.addEventListener('popstate', () => {
-            const hash = window.location.hash.replace('#', '') || 'home';
-            navigateTo(hash);
-        });
-    </script>
 </body>
 </html>
