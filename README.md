@@ -1,2 +1,3 @@
 # Similoluwa-Ajayi-The-Legal-Architect
-Professional digital portfolio and landing page for Similoluwa Ajayi. This project serves as a high-conversion "link-in-bio" site designed to bridge the gap between academic excellence and professional authority for the next generation of law students.
+Professional legal architect initiative project. This project serves as a high-conversion "link-in-bio" site designed to bridge the gap between academic excellence and professional authority for the next generation of law students.
+# [Visit the Official Initiative Website Here]([https://your-link-here](https://ajebutterextraordinaire.github.io/Similoluwa-Ajayi-The-Legal-Architect-Iniative/#initiatives))
